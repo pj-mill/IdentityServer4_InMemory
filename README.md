@@ -44,9 +44,10 @@
 | (CLI) | dotnet add package Microsoft.AspNetCore.Authentication.OpenIdConnect |
 | (CLI) | dotnet add package Microsoft.AspNetCore.Authorization |
 | (CODING) | Update Startup.cs to use Cookie & oidc Authentication |
+| (CODING) | Add Endpoint + functionality to Home Controller |
 
 
-### cURL Commands
+### cURL Command Examples
 #### Get Token
 curl -X POST "Content-Type: application/x-www-form-url-urlencoded" -H "Cache-Control: no-cache" -d "client_id=m2m.client&scope=weatherapi.read&client_secret=SuperSecretPassword&grant_type=client_credentials" "http://localhost:5000/connect/token"
 
