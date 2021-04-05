@@ -52,6 +52,7 @@ This has been developed to run locally on HTTP only. As a result, testing on Chr
 
 
 ## To Test
+Run all 3 apps using 'dotnet run' <br />
 Navigate to http://localhost:5001/Home <br />
 Then navigate to http://localhost:5001/Home/Weather <br />
 When prompted for login credentials, use those specified in the Config.cs file in the IDS app. <br />
