@@ -1,5 +1,9 @@
 # Identity Server 4 - In Memory Example
 
+## N.B.
+This has been developed to run locally on HTTP only. As a result, testing on Chrome will not work because of SameSite=none cookie attribute. Use Firefox instead.
+
+
 ### IDS Steps
 | Type | Description |
 |---|---|
@@ -46,6 +50,11 @@
 | (CODING) | Update Startup.cs to use Cookie & oidc Authentication |
 | (CODING) | Add Endpoint + functionality to Home Controller |
 
+
+## To Test
+Navigate to http://localhost:5001/Home
+Then navigate to http://localhost:5001/Home/Weather
+When prompted for login credentials, use those specified in the Config.cs file in the IDS app.
 
 ### cURL Command Examples
 #### Get Token
