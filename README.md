@@ -4,7 +4,7 @@
 This has been developed to run locally on HTTP only. As a result, testing on Chrome will not work because of SameSite=none cookie attribute. Use Firefox instead.
 
 
-### IDS Steps
+### Identity Server Steps
 | Type | Description |
 |---|---|
 | (CLI) | mkdir Identity						-> cd Identity |
