@@ -52,9 +52,9 @@ This has been developed to run locally on HTTP only. As a result, testing on Chr
 
 
 ## To Test
-Navigate to http://localhost:5001/Home
-Then navigate to http://localhost:5001/Home/Weather
-When prompted for login credentials, use those specified in the Config.cs file in the IDS app.
+Navigate to http://localhost:5001/Home <br />
+Then navigate to http://localhost:5001/Home/Weather <br />
+When prompted for login credentials, use those specified in the Config.cs file in the IDS app. <br />
 
 ### cURL Command Examples
 #### Get Token
