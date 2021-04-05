@@ -43,11 +43,7 @@ namespace weathermvc
                 options.ResponseType = "code";
                 options.UsePkce = true;
                 options.ResponseMode = "query";
-            
-                // options.CallbackPath = "/signin-oidc"; // default redirect URI
                 
-                // options.Scope.Add("oidc"); // default scope
-                // options.Scope.Add("profile"); // default scope
                 options.Scope.Add(Configuration["InteractiveServiceSettings:Scopes:0"]);
                 options.SaveTokens = true;
                 options.RequireHttpsMetadata=false;
