@@ -64,7 +64,7 @@ curl -X POST "Content-Type: application/x-www-form-url-urlencoded" -H "Cache-Con
 curl --insecure -X POST "Content-Type: application/x-www-form-url-urlencoded" -H "Cache-Control: no-cache" -d "client_id=m2m.client&scope=weatherapi.read&client_secret=SuperSecretPassword&grant_type=client_credentials" "https://localhost:5443/connect/token"
 
 
-### Authorize
+#### Authorize
 curl --insecure -X GET -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkE1NENDNEQ3OTRDRURDRDAwN0MzNUJCQTEyREFFQTlBIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2MTc1Mzg1ODYsImV4cCI6MTYxNzU0MjE4NiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoid2VhdGhlcmFwaSIsImNsaWVudF9pZCI6Im0ybS5jbGllbnQiLCJqdGkiOiI0RDg4RUZGNkY3MDY4MzRGNzE4MUY1QUVGQjI0RkNFNyIsImlhdCI6MTYxNzUzODU4Niwic2NvcGUiOlsid2VhdGhlcmFwaS5yZWFkIl19.W7UZAbZfS8FPhpoe59vSqavW1SDl3yyedm0GCMAdS4AD1ALVnNuyBFHTcUqxkrbtnlrCG-AYBerAKD8QIzFJU679DYjL20DODWnAEet-Qvgyo2wFvb7TaVdYV48ki--GS11ySsN8Ii_8TjDYpY0LRyBjxObh7wDoMAZRQcgRmsZg4Y4IVAvOLUwo5amWHAN1TCDbuXql6_AH5BO_WKmoFMrdOLO9nmtxSnVuWctjpZOzFMhjwz8oLgv7v5vPI4zZSUAiKcJZtsZZkq8ZnAYyuaxuCFq_gfhFIA0yW1N7-YZjzT5m-wGv1YgpMA-qUIrC4X5GqA9_ncPsgv6aBS6m0w" -H "Cache-Control: no-cache" "http://localhost:5002/weatherforecast"
 
 
